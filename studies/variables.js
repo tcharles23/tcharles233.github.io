@@ -76,7 +76,7 @@ const message = "Hey my name is";
 
 console.log(message); // prints Hey my name is. 
 
-message = "slim shady";
+// message = "slim shady";
 
 console.log(message); // typeError: assignment to constant variable
 
@@ -96,12 +96,12 @@ console.log(name); // prints undefined
  /* let and const values are not hoisted and therefore if you referencing them before they are declared 
  you will get a ReferenceError.
  */
- console.log(fruit); // prints ReferenceError
+ // console.log(fruit); // prints ReferenceError
 
- console.log(F); // prints RefereneceError
+ // console.log(F); // prints RefereneceError
 
  let fruit = "strawberries";
- let F = "fun";
+ // let F = "fun";
  console.log(fruit); // prints strawberries
- console.log(F); // prints fun
+ // console.log(F); // prints fun
 

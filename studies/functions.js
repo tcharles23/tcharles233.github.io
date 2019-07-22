@@ -9,7 +9,7 @@
 * 2. Function parameters are placeholders for the arguments thats going to be passed to the function.
 * - Function arguments takes place of the parameters when passing into a function.
 *
-* 3. The syntax for a name function: keyword function | nameofthefunction with parenthesis then curly braces
+* 3. The syntax for a name function: keyword function | name of the function with parenthesis then curly braces
 
 function person(nickname, favPlace) {
 
