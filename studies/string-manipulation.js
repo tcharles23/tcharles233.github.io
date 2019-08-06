@@ -54,3 +54,15 @@ let takeWordsOut = wideStr.split(' ');
 console.log(takeWordsOut[1]); // prints Lakers
 console.log(takeWordsOut[6]); // prints playoffs
 
+// concate strings with the plus operator +
+
+const sport = 'football';
+const videoGame = 'Madden';
+
+console.log(sport + ' ' + videoGame); // footBall Madden
+
+// additon equal opertor to concat a string
+let name1 = 'even';
+ name1 += ' stevens' ;
+ console.log(name1); // prints even stevens
+

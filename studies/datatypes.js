@@ -119,9 +119,11 @@ let obj1 = {
 obj1['speed'] = 'V8'; 
 
 obj1['cost'] = '33,000';
+console.log(obj1);  // prints { car: 'audi', color: 'black', speed: 'V8', cost: '33,000' }
 
-let obj2 = obj1;
+let obj2 = obj1; // obj2 reference obj1 
 
-obj2['color'] = 'blue';
+obj2['color'] = 'blue'; // the value assigned to the key color is changed to blue on obj1;
 
+console.log(obj1);  // prints { car: 'audi', color: 'blue', speed: 'V8', cost: '33,000' }
 console.log(obj2); // prints { car: 'audi', color: 'blue', speed: 'V8', cost: '33,000' }
