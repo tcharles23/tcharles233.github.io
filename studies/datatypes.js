@@ -31,7 +31,7 @@
 
 // number: numberic datatype
 
-var num = 5; 
+var nums = 5; 
 
 // string: a character datatype stored inside parenthesis 
 
